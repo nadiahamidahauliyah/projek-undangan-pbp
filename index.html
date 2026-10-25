@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4a171b">
+  <title>Raissa & Malik — Undangan Pernikahan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PEMBUKA UNDANGAN -->
+  <div class="opening" id="opening">
+    <div class="opening-inner">
+      <p class="arabic small-ar" lang="ar" dir="rtl">دَعْوَةُ زِفَاف</p>
+      <p class="arabic bismillah" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+
+      <div class="monogram"><span>R</span><i>&amp;</i><span>M</span></div>
+      <h1>Raissa <em>&amp;</em> Malik</h1>
+      <p class="date-label">18 NOVEMBER 2026</p>
+
+      <div class="guest-greeting">Kepada Yth. Bapak/Ibu/Saudara/i</div>
+      <p class="guest-name" id="openingGuest">Tamu Undangan</p>
+      <p class="opening-note">Dengan penuh cinta, kami mengundang Anda</p>
+
+      <button class="button button-red" id="openInvitation">
+        Click to Open <span>✦</span>
+      </button>
+    </div>
+
+    <div class="frame-corner corner-one"></div>
+    <div class="frame-corner corner-two"></div>
+  </div>
+
+  <!-- NAVIGASI -->
+  <header class="site-header">
+    <a class="brand" href="#home">R<span>&amp;</span>M</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi">☰</button>
+
+    <nav id="mainNav">
+      <a href="#couple">Mempelai</a>
+      <a href="#details">Acara</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#rsvp">RSVP</a>
+      <a href="#quest">Wedding Quest</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="date-label">18 NOVEMBER 2026 <span>✦</span> بِإِذْنِ اللَّهِ</p>
+
+        <h2 class="arabic hero-arabic" lang="ar" dir="rtl">
+          بِقَلْبَيْنِ يَصِيرَانِ وَاحِدًا
+        </h2>
+
+        <h1>Dengan izin Allah,<br><em>dua hati menjadi satu.</em></h1>
+
+        <p class="hero-description">
+          Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
+          menyelenggarakan pernikahan kami.
+        </p>
+
+        <a class="button button-red" href="#details">Jelajahi Undangan ↗</a>
+        <div class="hero-names">RAISSA <span>✦</span> MALIK</div>
+      </div>
+
+      <div class="arabesque arabesque-left" aria-hidden="true">۞</div>
+      <div class="arabesque arabesque-bottom" aria-hidden="true">۞</div>
+    </section>
+
+    <!-- MEMPELAI -->
+    <section class="section intro" id="couple">
+      <div class="section-ornament">۞ ✦ ۞</div>
+      <p class="eyebrow">BISMILLAHIRRAHMANIRRAHIM</p>
+
+      <h2>Dengan penuh rasa syukur,<br><em>kami mengundang Anda</em></h2>
+
+      <p class="section-copy">
+        Untuk menjadi bagian dari hari istimewa saat dua cerita menyatu
+        menjadi satu perjalanan baru.
+      </p>
+
+      <div class="couple-grid">
+        <article class="person-card">
+          <div class="portrait portrait-one">
+            <img src="foto-malik.png" alt="Malik, mempelai pria">
+          </div>
+
+          <p class="eyebrow">MEMPELAI PRIA</p>
+          <h3>Malik</h3>
+          <p>Putra dari<br>
+            <strong>Bapak Saddam Malik &amp; Ibu Zainab</strong>
+          </p>
+        </article>
+
+        <div class="ampersand">۞</div>
+
+        <article class="person-card">
+          <div class="portrait portrait-two">
+            <img src="foto-raissa.png" alt="Raissa, mempelai wanita">
+          </div>
+
+          <p class="eyebrow">MEMPELAI WANITA</p>
+          <h3>Raissa</h3>
+          <p>Putri dari<br>
+            <strong>Bapak Syam Agus Fuji Andra &amp; Ibu Novita</strong>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ACARA -->
+    <section class="section event-section" id="details">
+      <div class="section-heading">
+        <p class="eyebrow gold-text">۞ WHEN &amp; WHERE ۞</p>
+        <h2>Hari bahagia <em>kami</em></h2>
+        <p class="section-copy">Catat tanggalnya dan mari rayakan bersama.</p>
+      </div>
+
+      <div class="countdown" aria-label="Hitung mundur menuju acara">
+        <div><strong id="days">00</strong><span>Hari</span></div>
+        <div><strong id="hours">00</strong><span>Jam</span></div>
+        <div><strong id="minutes">00</strong><span>Menit</span></div>
+        <div><strong id="seconds">00</strong><span>Detik</span></div>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card">
+          <div class="event-icon">۞</div>
+          <p class="eyebrow">AKAD NIKAH</p>
+          <h3>Rabu, 18 November 2026</h3>
+          <p>08.00 – 10.00 WIB</p>
+          <p>Masjid Istiqlal<br>Jakarta Pusat</p>
+          <a class="text-link" target="_blank" rel="noreferrer"
+             href="https://www.google.com/maps/search/?api=1&query=Masjid+Istiqlal+Jakarta">
+            Lihat lokasi ↗
+          </a>
+        </article>
+
+        <article class="event-card">
+          <div class="event-icon">✦</div>
+          <p class="eyebrow">RESEPSI</p>
+          <h3>Rabu, 18 November 2026</h3>
+          <p>11.00 – 14.00 WIB</p>
+          <p>Masjid Istiqlal<br>Jakarta Pusat</p>
+          <a class="text-link" target="_blank" rel="noreferrer"
+             href="https://www.google.com/maps/search/?api=1&query=Masjid+Istiqlal+Jakarta">
+            Lihat lokasi ↗
+          </a>
+        </article>
+      </div>
+
+      <div class="map-frame">
+        <iframe title="Peta Masjid Istiqlal Jakarta"
+          src="https://maps.google.com/maps?q=Masjid%20Istiqlal%20Jakarta&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <a class="button button-cream" target="_blank" rel="noreferrer"
+         href="https://www.google.com/maps/dir/?api=1&destination=Masjid+Istiqlal+Jakarta">
+        Buka Petunjuk Arah di Google Maps ↗
+      </a>
+
+      <button class="button button-outline" id="calendarButton">
+        ＋ Simpan ke Kalender
+      </button>
+    </section>
+
+    <!-- GALERI FOTO -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-ornament">✦ ۞ ✦</div>
+      <p class="eyebrow">OUR LITTLE MOMENTS</p>
+      <h2>Potongan <em>cerita kami</em></h2>
+
+      <div class="gallery-grid">
+        <div class="gallery-tile tile-tall">
+          <img src="04-the-promise.jpg"
+               alt="The beginning" loading="lazy">
+          <span>01 · The beginning</span>
+        </div>
+
+        <div class="gallery-tile tile-wide">
+          <img src="02-a-little-forever.jpg"
+               alt="A little forever" loading="lazy">
+          <span>02 · A little forever</span>
+        </div>
+
+        <div class="gallery-tile">
+          <img src="03-just-us.jpg"
+               alt="Just us" loading="lazy">
+          <span>03 · Just us</span>
+        </div>
+
+        <div class="gallery-tile">
+          <img src="01-the-beginning.png""
+               alt="The promise" loading="lazy">
+          <span>04 · The promise</span>
+        </div>
+      </div>
+
+      <div class="gallery-bottom-ornament">۞ ✿ ۞ ✿ ۞</div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section rsvp-section" id="rsvp">
+      <div class="rsvp-ornament rsvp-ornament-left" aria-hidden="true">۞</div>
+      <div class="rsvp-ornament rsvp-ornament-right" aria-hidden="true">۞</div>
+
+      <div class="rsvp-wrap">
+        <div>
+          <p class="eyebrow gold-text">RSVP</p>
+          <h2>Kehadiran Anda<br><em>berarti bagi kami</em></h2>
+          <p class="section-copy">
+            Mohon konfirmasi agar kami dapat menyambut Anda dengan baik.
+          </p>
+          <div class="rsvp-calligraphy arabic" lang="ar" dir="rtl">
+            أَهْلًا وَسَهْلًا
+          </div>
+        </div>
+
+        <form id="rsvpForm" class="form-card">
+          <label>Nama lengkap
+            <input id="rsvpName" name="name" required placeholder="Nama Anda">
+          </label>
+
+          <label>Konfirmasi kehadiran
+            <select id="attendance" name="attendance" required>
+              <option value="">Pilih jawaban</option>
+              <option value="Hadir">Dengan senang hati hadir</option>
+              <option value="Tidak hadir">Mohon maaf, belum bisa hadir</option>
+            </select>
+          </label>
+
+          <label>Jumlah tamu
+            <select id="guestCount" name="guestCount">
+              <option value="1">1 orang</option>
+              <option value="2">2 orang</option>
+              <option value="3">3 orang</option>
+              <option value="4">4 orang</option>
+            </select>
+          </label>
+
+          <label>Ucapan singkat
+            <textarea id="rsvpMessage" name="message" rows="3"
+              placeholder="Doa dan harapan untuk kedua mempelai..."></textarea>
+          </label>
+
+          <button class="button button-red" type="submit">Kirim RSVP ↗</button>
+          <p class="form-status" id="rsvpStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- BUKU UCAPAN -->
+    <section class="section guestbook-section">
+      <div class="section-ornament">۞</div>
+      <p class="eyebrow">WORDS FROM THE HEART</p>
+      <h2>Buku <em>ucapan</em></h2>
+
+      <form id="guestbookForm" class="guestbook-form">
+        <input id="guestbookName" required placeholder="Nama Anda"
+               aria-label="Nama Anda">
+        <textarea id="guestbookText" required rows="2"
+          placeholder="Tuliskan ucapan dan doa..."
+          aria-label="Ucapan"></textarea>
+        <button class="button button-red" type="submit">Kirim ucapan</button>
+      </form>
+
+      <div id="guestbookList" class="guestbook-list">
+        <p class="muted">Jadilah yang pertama meninggalkan ucapan.</p>
+      </div>
+    </section>
+
+    <!-- WEDDING QUEST -->
+    <section class="section quest-section" id="quest">
+      <div class="quest-top-ornament">۞ ✿ ۞</div>
+
+      <div class="quest-heading">
+        <p class="eyebrow gold-text">MAKE THE DAY MORE MEMORABLE</p>
+        <h2>Wedding <em>Quest</em></h2>
+        <p class="section-copy">
+          Selesaikan delapan misi sesuai waktu yang ditentukan.
+          Unggah bukti untuk mencatat waktu penyelesaian.
+        </p>
+      </div>
+
+      <div class="quest-rules">
+        <span>✦ 8 misi</span>
+        <span>✦ Maks. 100 poin</span>
+        <span>✦ Penilaian berdasarkan waktu</span>
+      </div>
+
+      <div class="quest-progress">
+        <div class="progress-label">
+          <span>Progres misi</span>
+          <strong id="progressText">0/8 selesai</strong>
+        </div>
+        <div class="progress-track">
+          <div id="progressBar"></div>
+        </div>
+      </div>
+
+      <div id="questList" class="quest-list"></div>
+
+      <div class="quest-bottom">
+        <div>
+          <p class="eyebrow">SKOR KAMU</p>
+          <strong class="total-score" id="totalScore">0</strong>
+          <span>/ 100 poin</span>
+          <p id="rankText" class="rank-text">Mulai misi pertamamu!</p>
+        </div>
+
+        <div class="quest-code">
+          <label for="guestId">Kode tamu</label>
+          <input id="guestId" maxlength="30" placeholder="Contoh: TAMU26">
+          <button class="button button-cream" id="saveGuestId" type="button">
+            Simpan kode
+          </button>
+          <p class="tiny">
+            Skor tersimpan di browser ini. Leaderboard online membutuhkan
+            penyimpanan online seperti Firebase.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HADIAH DIGITAL -->
+    <section class="section gift-section" id="gift">
+      <p class="eyebrow">A TOKEN OF LOVE</p>
+      <h2>Hadiah <em>digital</em></h2>
+      <p class="section-copy">
+        Doa restu Anda adalah hadiah terindah. Jika ingin berbagi tanda kasih,
+        detail berikut dapat digunakan.
+      </p>
+
+      <div class="gift-card">
+        <div class="bank-mark">BNI</div>
+        <p>Nomor rekening</p>
+        <strong id="bankNumber">[1958068134]</strong>
+        <p>a.n. [Nama pemilik rekening]</p>
+        <button class="button button-outline" id="copyBank" type="button">
+          Salin nomor rekening
+        </button>
+        <p class="form-status" id="copyStatus" role="status"></p>
+      </div>
+
+      <div class="gift-bottom-ornament">۞ ✦ ۞</div>
+    </section>
+
+    <!-- PENUTUP -->
+    <section class="closing">
+      <div class="closing-ornament">✿ ۞ ✿</div>
+      <div class="monogram"><span>R</span><i>&amp;</i><span>M</span></div>
+      <p class="arabic" lang="ar" dir="rtl">بَارَكَ اللَّهُ لَكُمَا</p>
+      <h2>See you at<br><em>our forever.</em></h2>
+      <p>Terima kasih atas doa dan kehadiran Anda.</p>
+      <p class="closing-names">RAISSA &amp; MALIK · 18.11.2026</p>
+    </section>
+  </main>
+
+  <footer>Made with love · Raissa &amp; Malik <span>۞</span></footer>
+
+  <!-- MUSIK -->
+  <audio id="weddingMusic" loop preload="none">
+    <source src="lagu.mp3" type="audio/mpeg">
+  </audio>
+
+  <button class="music-toggle" id="musicToggle" aria-label="Putar musik">
+    ♫
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
